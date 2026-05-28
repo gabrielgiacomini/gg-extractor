@@ -1,0 +1,11 @@
+**The Four Questions**
+1. Extract
+2. A moving van
+3. A mama bird kicking her grown chicks out of the nest — she feeds them, she teaches them to fly, and then she says "alright you've lived in skills long enough, here's a brand new tree in GitHub, go build your own repo now"
+4. Untracking every single file from the parent repo, manually creating a brand new GitHub repo, initializing it with all the code, and then either adding the folder to gitignore OR deleting the folder and running git submodule add with the exact right URL — all while making sure the parent repo doesn't explode
+
+**The Reality**
+This skill is basically a moving company for your code. It walks into the skills neighborhood, finds the skill folder you pointed to, packs up everything inside, drives it to a brand new GitHub address, and then either leaves the boxes on the curb untracked OR replaces the whole thing with a forwarding label (that's the submodule option, for people who like living dangerously).
+
+**The Superpower and the Mockery**
+It thinks it's a high-powered real estate executive but it's really just a moving van with a clipboard. It will ask you approximately seventeen questions before doing anything — "are you sure you want to rename this? Let me scan for references. Actually, what visibility do you want? Private or public? Integration mode? Gitignore or submodule?" — and then after all those questions it does the actual work, which is: create repo, push code, break the link in the parent repo. It has NO idea if the skill is any good — it just knows the folder got on the van.

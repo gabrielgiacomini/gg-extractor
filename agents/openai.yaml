@@ -1,0 +1,13 @@
+interface:
+  display_name: GG → Extractor → Skill Extractor
+  short_description: >-
+    Extract a skills/ folder into a standalone GitHub repo, optionally rename and
+    rewrite references, and re-integrate it as a gitignored clone or git submodule.
+  icon_small: ./assets/icon-small.svg
+  icon_large: ./assets/icon-large.png
+  brand_color: '#6366F1'
+  default_prompt: >-
+    $extractor — Use when promoting a skills/ folder into its own GitHub
+    repository, renaming it with reference rewrites, or re-integrating an extracted skill
+    back into the host project as a local clone or git submodule. Reference
+    extractor/SKILL.md when cross-referencing this skill.
